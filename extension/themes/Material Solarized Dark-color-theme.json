@@ -151,21 +151,15 @@
       }
     },
     {
-      "scope": "keyword, storage.type, storage.modifier",
+      "scope": "keyword, storage.type, storage.modifier, constant.language, constant, source",
       "settings": {
         "foreground": "#859900"
       }
     },
     {
-      "scope": "keyword.operator",
+      "scope": "keyword.operator, keyword.control.ternary, storage.type.generic.wildcard",
       "settings": {
         "foreground": "#93A1A1"
-      }
-    },
-    {
-      "scope": "constant, constant.language",
-      "settings": {
-        "foreground": "#CB4B16"
       }
     },
     {
@@ -175,7 +169,7 @@
       }
     },
     {
-      "scope": "string, string.quoted, string.template",
+      "scope": "string, string.quoted, string.template, punctuation.definition.string",
       "settings": {
         "foreground": "#2AA198"
       }
@@ -208,32 +202,33 @@
     {
       "scope": "variable, variable.other",
       "settings": {
-        "foreground": "#839496"
+        "foreground": "#268BD2"
       }
     },
     {
       "scope": "variable.parameter.function",
       "settings": {
-        "foreground": "#DC322F",
+        "foreground": "#93A1A1",
         "fontStyle": "italic"
       }
     },
     {
       "scope": "variable.language, variable.other.property, support.variable",
       "settings": {
-        "foreground": "#DC322F"
+        "foreground": "#859900"
       }
     },
     {
       "scope": "variable.other.constant",
       "settings": {
-        "foreground": "#CB4B16"
+        "foreground": "#268BD2",
+        "fontStyle": "italic"
       }
     },
     {
       "scope": "entity.name.function.decorator, meta.decorator, punctuation.decorator",
       "settings": {
-        "foreground": "#D33682"
+        "foreground": "#6C71C4"
       }
     },
     {
@@ -349,13 +344,13 @@
     {
       "scope": "meta.preprocessor, entity.name.function.preprocessor",
       "settings": {
-        "foreground": "#D33682"
+        "foreground": "#6C71C4"
       }
     },
     {
       "scope": "storage.type.annotation.java, keyword.other.annotation",
       "settings": {
-        "foreground": "#D33682"
+        "foreground": "#6C71C4"
       }
     },
     {
@@ -391,19 +386,15 @@
       "fontStyle": "italic underline"
     },
     "variable": "#268BD2",
-    "variable.readonly": {
-      "foreground": "#268BD2",
-      "fontStyle": "italic"
-    },
     "parameter": "#93A1A1",
     "property": "#268BD2",
-    "property.static":{
+    "property.static": {
       "foreground": "#268BD2",
       "fontStyle": "italic"
     },
     "function": "#268BD2",
     "method": "#B58900",
-    "method.static":{
+    "method.static": {
       "foreground": "#B58900",
       "fontStyle": "italic"
     },
@@ -413,12 +404,15 @@
       "foreground": "#6C71C4",
       "fontStyle": "italic"
     },
-    "class": "#B58900",
+    "class": "#CB4B16",
     "enum": "#CB4B16",
-    "enumMember": "#CB4B16",
+    "enumMember": "#268BD2",
     "struct": "#B58900",
     "event": "#D33682",
-    "decorator": "#D33682",
+    "decorator": {
+      "foreground": "#6C71C4",
+      "fontStyle": "bold"
+    },
     "namespace": "#CB4B16",
     "number": "#D33682",
     "string": "#2AA198",
@@ -426,6 +420,7 @@
     "operator": "#93A1A1",
     "macro": "#D33682",
     "*.constructor": "#B58900",
-    "annotation": "#6C71C4"
+    "annotation": "#6C71C4",
+    "annotationMember": "#B58900"
   }
 }
