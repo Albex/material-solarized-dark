@@ -1,0 +1,30 @@
+{
+  "name": "material-solarized-dark",
+  "displayName": "Material Solarized Dark",
+  "description": "Solarized Dark theme with Material Theme UI colors for VS Code",
+  "publisher": "albex",
+  "version": "0.1.1",
+  "engines": { "vscode": "^1.60.0" },
+  "categories": ["Themes"],
+  "contributes": {
+    "themes": [{
+      "label": "Material Solarized Dark",
+      "uiTheme": "vs-dark",
+      "path": "./themes/Material Solarized Dark-color-theme.json"
+    }]
+  },
+  "scripts": {
+    "package": "vsce package",
+    "package:vsix": "vsce package --out material-solarized-dark.vsix"
+  },
+  "keywords": ["theme", "color-theme", "solarized", "material", "dark"],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Albex/material-solarized-dark.git"
+  },
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/Albex/material-solarized-dark/issues"
+  },
+  "homepage": "https://github.com/Albex/material-solarized-dark#readme"
+}
