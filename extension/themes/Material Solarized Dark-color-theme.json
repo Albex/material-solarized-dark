@@ -151,7 +151,7 @@
       }
     },
     {
-      "scope": "keyword, storage.type, storage.modifier, constant.language, constant, source",
+      "scope": "keyword, keyword.operator.expression, storage.type, storage.modifier, constant.language, constant, source",
       "settings": {
         "foreground": "#859900"
       }
